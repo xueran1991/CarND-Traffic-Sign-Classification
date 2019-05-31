@@ -41,6 +41,10 @@ The goals / steps of this project are the following:
 
 Here are some examples of the dataset. Through the histagrom of the data, we can see the amount of the samples of different labels varied from about 250 to 2000.
 
+<img src="for writeup/examples of data.png">
+
+<img src="for writeup/data distribution.png">
+
 ### Design and Test a Model Architecture
 
 #### 1. Preprocessing the image data. 
@@ -54,6 +58,7 @@ I decided to generate additional data because some of the class contains as less
 
 Here are some pictures of before and after the augmentation.
 
+<img src="for writeup/data augmentation.png">
 
 #### 2. Final model architecture.
  My final model consisted of the following layers:
@@ -88,6 +93,10 @@ To train the model, I used cross entropy as the lost function and Adam as the op
 
 I tune the dropout ratio for many times for 0.1 to 0.5. At the keep_prob=0.2, I got the highest accuracy score. The plots show training process with differernt parameters.
 
+<img src="for writeup/acc-dp=0.5.png">
+<img src="for writeup/acc-dp=0.3.png">
+<img src="for writeup/acc-dp=0.2.png">
+
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
@@ -108,7 +117,7 @@ There may some problem with the augmentation. I am not sure which validation set
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I download from the GTSRB  offical website.
-
+<img src="for writeup/new images.png">
 
 
 The first image might be difficult to classify because ...
