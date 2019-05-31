@@ -117,16 +117,21 @@ There may some problem with the augmentation. I am not sure which validation set
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I download from the GTSRB  offical website.
+
 <img src="for writeup/new images.png">
 
-
-The first image might be difficult to classify because ...
+The first image might be difficult to classify because it's so blurry that is difficult for us to see whatis inside the triangle.
 
 The model was able to correctly guess all of the 5 traffic signs, which gives an accuracy of 100%. It's a pretty good result.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The results are as the pictures blow. We can see that the modle isn't 100% sure about what those pictures are. But the correct always have the highest probilities.
+<img src="for writeup/topk-1.png">
+<img src="for writeup/topk-2.png">
+<img src="for writeup/topk-3.png">
+<img src="for writeup/topk-4.png">
+<img src="for writeup/topk-5.png">
 
 
 
