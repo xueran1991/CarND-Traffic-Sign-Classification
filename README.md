@@ -108,7 +108,7 @@ I choose The LeNet5 as my first architecture. Beacause it have achieved high sor
 
 One of the shortage of the architectue is that when the traing set is not large enough, it's hard to get a high accuracy. So I add more convolutional layers to the architecture. So there are more features about the image in my model.
 
-There may some problem with the augmentation. I am not sure which validation set to use when training the model. I use the original validation set. The accuracy became vary low on the training set, but on  the validation set accuarcy didn't change much.
+There may some problem with the augmentation. I am not sure which validation set to use when training the model. I use the original validation set. The accuracy became vary low on the training set, but after traing the accruacy on the test set  didn't change much.
 
  
 
@@ -132,6 +132,8 @@ The results are as the pictures blow. We can see that the modle isn't 100% sure 
 <img src="for writeup/topk-3.png">
 <img src="for writeup/topk-4.png">
 <img src="for writeup/topk-5.png">
+
+I thought the first image was the most diffcult to classify. But the model get more confused on the Stop sign.
 
 
 
