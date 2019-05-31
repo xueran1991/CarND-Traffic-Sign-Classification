@@ -27,6 +27,8 @@ The goals / steps of this project are the following:
 
 #### 1. The data was restore from the pickle file. Below is a basic summary of the data set. The original data has already been split into train,validaton and test these 3 parts.
 
+You can download the dataset [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip).
+
     Number of training examples = 34799 
     
     Number of validation examples = 4410
